@@ -1,0 +1,33 @@
+#include <windows.h>
+#include "setup_res.h"
+
+IDI_CIDER  ICON   "../../assets/cider.ico"
+IDI_DMG    ICON   "../../assets/dmg.ico"
+IDR_CIDER  RCDATA "cider.exe"
+IDR_CIDERW RCDATA "ciderw.exe"
+1 RT_MANIFEST "../cider/cider.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "CompanyName", "Cider"
+      VALUE "FileDescription", "Cider Setup"
+      VALUE "FileVersion", "1.0.0"
+      VALUE "ProductName", "Cider"
+      VALUE "ProductVersion", "1.0.0"
+      VALUE "OriginalFilename", "CiderSetup.exe"
+      VALUE "LegalCopyright", "MIT License"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

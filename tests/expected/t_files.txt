@@ -1,0 +1,13 @@
+size via ftell: 36
+getline(9): line one
+getline(9): line two
+getline(9): number 3
+getline(9): unlocked
+getc_unlocked count: 36
+stat file: 0 size=36 reg=1
+stat dir: 0 dir=1
+read: 4 [raw]
+readdir: file.txt type=8
+unlink: 0 rmdir: 0
+stat gone: -1
+/dev/null: ok

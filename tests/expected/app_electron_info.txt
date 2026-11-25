@@ -1,0 +1,6 @@
+Name:        Electron Hello
+Identifier:  org.cider.electronhello
+Version:     2.1.0
+Type:        Electron (runs on Electron for Windows)
+Electron:    33.2.1
+Verdict:     should run

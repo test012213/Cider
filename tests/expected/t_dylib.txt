@@ -1,0 +1,3 @@
+hello Windows from a dylib (ctor ran: 1)
+hello again from a dylib (ctor ran: 1)
+greet_count=2

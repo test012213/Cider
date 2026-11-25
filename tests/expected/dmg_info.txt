@@ -1,0 +1,8 @@
+Name:        Cider Test
+Identifier:  org.cider.test
+Version:     1.0
+Type:        native macOS code (runs directly on the CPU)
+CPU:         x86_64 
+Libraries:
+  /usr/lib/libSystem.B.dylib
+Verdict:     should run

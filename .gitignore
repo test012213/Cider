@@ -1,0 +1,6 @@
+build/
+src/setup/cider.exe
+src/setup/ciderw.exe
+*.o
+*.res
+/CiderSetup.exe
